@@ -1,6 +1,6 @@
 {
   "name": "Node-Red Dashboard",
-  "version": "dev5",
+  "version": "dev6",
   "slug": "node-red-dashboard",
   "description": "Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard",
   "url": "https://github.com/regevbr/addon-node-red-dashboard",
