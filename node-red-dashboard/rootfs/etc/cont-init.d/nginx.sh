@@ -3,12 +3,9 @@
 # Home Assistant Community Add-on: Node-RED dashboard
 # Configures NGINX for use with Node-RED dashboard
 # ==============================================================================
-declare admin_port
-declare certfile
 declare dns_host
 declare ingress_interface
 declare ingress_port
-declare keyfile
 
 ingress_port=$(bashio::addon.ingress_port)
 ingress_interface=$(bashio::addon.ip_address)
