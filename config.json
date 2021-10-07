@@ -1,35 +1,21 @@
 {
-  "name": "Ingress Nginx Proxy",
+  "name": "Node Red Dashboard",
   "version": "dev",
-  "slug": "ingress_nginx_proxy",
-  "description": "Proxy That uses Home Assistant Ingress and Nginx to map any local port",
-  "url": "https://github.com/hassio-addons/addon-node-red",
+  "slug": "node-red-dashboard",
+  "description": "Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard",
+  "url": "https://github.com/regevbr/addon-node-red-dashboard",
   "ingress": true,
   "ingress_port": 0,
-  "panel_icon": "mdi:sitemap",
+  "panel_icon": "mdi:store-clock",
   "startup": "application",
   "panel_admin": "false",
   "init": false,
-  "homeassistant": "0.92.0b2",
+  "homeassistant_api": false,
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
   "boot": "auto",
   "hassio_api": true,
-  "hassio_role": "manager",
-  "homeassistant_api": true,
   "host_network": true,
-  "auth_api": true,
   "auto_uart": true,
-  "gpio": true,
   "privileged": ["SYS_RAWIO"],
-  "devices": ["/dev/mem:/dev/mem:rwm"],
-  "apparmor": false,
-  "map": ["config:rw", "share:rw", "ssl"],
-  "options": {
-    "port": "",
-    "path": ""
-  },
-  "schema": {
-    "port": "str",
-    "path": "str"
-  }
+  "apparmor": false
 }

@@ -41,16 +41,16 @@ ARG BUILD_VERSION
 
 # Labels
 LABEL \
-    io.hass.name="Ingress Nginx Proxy" \
-    io.hass.description="Proxy That uses Home Assistant Ingress and Nginx to map any local port" \
+    io.hass.name="Node Red Dashboard" \
+    io.hass.description="Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    org.opencontainers.image.title="Ingress Nginx Proxy" \
-    org.opencontainers.image.description="Proxy That uses Home Assistant Ingress and Nginx to map any local port" \
+    org.opencontainers.image.title="Node Red Dashboard" \
+    org.opencontainers.image.description="Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard" \
     org.opencontainers.image.licenses="Apache-2.0" \
-    org.opencontainers.image.url="https://github.com/hassio-addons/addon-node-red" \
-    org.opencontainers.image.source="https://github.com/hassio-addons/addon-node-red" \
+    org.opencontainers.image.url="https://github.com/regevbr/addon-node-red-dashboard" \
+    org.opencontainers.image.source="https://github.com/regevbr/addon-node-red-dashboard" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}

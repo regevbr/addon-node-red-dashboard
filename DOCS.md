@@ -1,7 +1,3 @@
-# Home Assistant Add-on: Ingress Nginx Proxy
+# Home Assistant Add-on: Node Red Dashboard
 
-Proxy That uses Home Assistant Ingress and Nginx to map any local port
-
-Just set in configuration which local port you want to map.
-
-Supports websockets.
+Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard
