@@ -18,10 +18,10 @@ RUN \
         make=4.3-r0 \
     \
     && apk add --no-cache \
-        nginx=1.20.1-r3 \
+        nginx=1.20.2-r0 \
         openssh-client=8.6_p1-r3 \
         patch=2.7.6-r7 \
-        python3=3.9.5-r1 \
+        python3=3.9.5-r2 \
     \
     && echo -e "StrictHostKeyChecking no" >> /etc/ssh/ssh_config \
     \
