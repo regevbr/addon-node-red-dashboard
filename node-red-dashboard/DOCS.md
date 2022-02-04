@@ -2,4 +2,4 @@
 
 Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard
 
-Note: port 1880 must be exposed in the node red settings for the addon to work
+Note: please set in the configuration the exposed port of node-ed and weather it uses ssl or not

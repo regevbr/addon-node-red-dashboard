@@ -1,6 +1,6 @@
 {
   "name": "Node-Red Dashboard",
-  "version": "dev9",
+  "version": "dev10",
   "slug": "node-red-dashboard",
   "description": "Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard",
   "url": "https://github.com/regevbr/addon-node-red-dashboard",
@@ -17,5 +17,13 @@
   "host_network": false,
   "uart": true,
   "privileged": ["SYS_RAWIO"],
-  "apparmor": false
+  "apparmor": false,
+  "options": {
+    "port": "1880",
+    "ssl": false
+  },
+  "schema": {
+    "port": "str",
+    "ssl": "bool"
+  }
 }
