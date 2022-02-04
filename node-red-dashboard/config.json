@@ -15,7 +15,7 @@
   "boot": "auto",
   "hassio_api": true,
   "host_network": true,
-  "auto_uart": true,
+  "uart": true,
   "privileged": ["SYS_RAWIO"],
   "apparmor": false
 }
