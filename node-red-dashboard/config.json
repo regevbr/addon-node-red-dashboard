@@ -1,6 +1,6 @@
 {
   "name": "Node-RED Dashboard",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "slug": "node-red-dashboard",
   "description": "Gain access to the Node-RED dashboard from the sidebar",
   "url": "https://github.com/regevbr/addon-node-red-dashboard",
