@@ -20,7 +20,9 @@ Or:
    -> <kbd>Add-ons</kbd> -> <kbd>ADD-ON STORE</kbd>.
 
 1. Click the 3-dots menu at upper right <kbd>...</kbd> > <kbd>Repositories</kbd>
-   and add this repository's URL [https://github.com/regevbr/addon-node-red-dashboard](https://github.com/regevbr/addon-node-red-dashboard):
+   and add this repository's URL
+   [https://github.com/regevbr/addon-node-red-dashboard](https://github.com/regevbr/addon-node-red-dashboard)
+   :
 
   <img src="images/add_ss.png" width="300"/>
 
