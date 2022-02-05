@@ -41,13 +41,13 @@ ARG BUILD_VERSION
 
 # Labels
 LABEL \
-    io.hass.name="Node Red Dashboard" \
-    io.hass.description="Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard" \
+    io.hass.name="Node-Red Dashboard" \
+    io.hass.description="Gain access to the Node-RED dashboard from HA side menu" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    org.opencontainers.image.title="Node Red Dashboard" \
-    org.opencontainers.image.description="Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard" \
+    org.opencontainers.image.title="Node-Red Dashboard" \
+    org.opencontainers.image.description="Gain access to the Node-RED dashboard from HA side menu" \
     org.opencontainers.image.licenses="Apache-2.0" \
     org.opencontainers.image.url="https://github.com/regevbr/addon-node-red-dashboard" \
     org.opencontainers.image.source="https://github.com/regevbr/addon-node-red-dashboard" \

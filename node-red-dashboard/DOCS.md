@@ -1,5 +1,5 @@
 # Home Assistant Add-on: Node Red Dashboard
 
-Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard
+Gain access to the Node-RED dashboard from HA side menu.
 
-Note: no need to open node red ports, the add on communicates directly with the node red ingress
+> No need to open Node-RED webview port

@@ -1,5 +1,5 @@
 {
-  "name": "Node red dashboard repository",
+  "name": "Node-RED Dashboard repository",
   "url": "https://github.com/regevbr/addon-node-red-dashboard",
-  "maintainer": "Regev Brody"
+  "maintainer": "Regev Brody<regevbr@gmail.com>"
 }
