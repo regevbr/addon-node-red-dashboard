@@ -1,7 +1,7 @@
 {
   "name": "addon-node-red-dashboard",
   "version": "1.0.0",
-  "description": "Gain access to the Node-RED dashboard from HA side menu.",
+  "description": "Gain access to the Node-RED dashboard from the sidebar",
   "main": "index.js",
   "scripts": {
     "lint:md": "mdl .",

@@ -1,6 +1,6 @@
 # Home Assistant Node-RED Dashboard addon
 
-Gain access to the Node-RED dashboard from HA side menu.
+Gain access to the Node-RED dashboard from Home Assistant sidebar
 
 > No need to open Node-RED webview port
 
