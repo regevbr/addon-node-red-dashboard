@@ -14,11 +14,3 @@ sed -i "s/%%interface%%/${ingress_interface}/g" /etc/nginx/servers/ingress.conf
 
 dns_host=$(bashio::dns.host)
 sed -i "s/%%dns_host%%/${dns_host}/g" /etc/nginx/includes/resolver.conf
-
-config_port=$(bashio::config 'port')
-sed -i "s/%%config_port%%/${config_port}/g" /etc/nginx/includes/upstream.conf
-if bashio::config.true 'ssl'; then
-    sed -i "s/%%schema%%/https/g" /etc/nginx/servers/ingress.conf
-else
-    sed -i "s/%%schema%%/http/g" /etc/nginx/servers/ingress.conf
-fi

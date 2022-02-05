@@ -2,4 +2,4 @@
 
 Proxy That uses Home Assistant Ingress and Nginx to show the node red dashboard
 
-Note: please set in the configuration the exposed port of node-ed and weather it uses ssl or not
+Note: no need to open node red ports, the add on communicates directly with the node red ingress
