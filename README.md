@@ -36,4 +36,4 @@ Or:
 1. Click <kbd>Install</kbd> and give it a few minutes to finish downloading.
 
 1. Click <kbd>Start</kbd>, give it a few seconds to spin up, and
-   then click the `Open Web UI` button that appears.
+   then click the <kbd>Open Web UI</kbd> button that appears.
