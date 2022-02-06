@@ -10,21 +10,9 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
 RUN \
-    apk add --no-cache --virtual .build-dependencies \
-        g++=10.3.1_git20211027-r0 \
-        gcc=10.3.1_git20211027-r0 \
-        libc-dev=0.7.2-r3 \
-        linux-headers=5.10.41-r0 \
-        make=4.3-r0 \
-    \
-    && apk add --no-cache \
+    apk add --no-cache \
         nginx=1.20.2-r0 \
-        openssh-client=8.8_p1-r1 \
-        python3=3.9.7-r4 \
     \
-    && echo -e "StrictHostKeyChecking no" >> /etc/ssh/ssh_config \
-    \
-    && apk del --no-cache --purge .build-dependencies \
     && rm -fr \
         /tmp/* \
         /etc/nginx
