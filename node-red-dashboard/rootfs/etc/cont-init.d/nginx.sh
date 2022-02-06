@@ -3,14 +3,16 @@
 # Home Assistant Community Add-on: Node-RED dashboard
 # Configures NGINX for use with Node-RED dashboard
 # ==============================================================================
-declare dns_host
-declare ingress_interface
-declare ingress_port
 
-ingress_port=$(bashio::addon.ingress_port)
-ingress_interface=$(bashio::addon.ip_address)
-sed -i "s/%%port%%/${ingress_port}/g" /etc/nginx/servers/ingress.conf
-sed -i "s/%%interface%%/${ingress_interface}/g" /etc/nginx/servers/ingress.conf
+bashio::var.json \
+    interface "$(bashio::addon.ip_address)" \
+    port "^$(bashio::addon.ingress_port)" \
+    | tempio \
+        -template /etc/nginx/templates/ingress.gtpl \
+        -out /etc/nginx/servers/ingress.conf
 
-dns_host=$(bashio::dns.host)
-sed -i "s/%%dns_host%%/${dns_host}/g" /etc/nginx/includes/resolver.conf
+bashio::var.json \
+    dns_host "$(bashio::dns.host)" \
+    | tempio \
+        -template /etc/nginx/templates/resolver.gtpl \
+        -out /etc/nginx/includes/resolver.conf
