@@ -22,13 +22,13 @@
 - Changed the sidebar icon
 - Moved to the latest base docker image
 
-## [1.0.2]- 2022-02-05
+## [1.0.2] - 2022-02-05
 
 ### Changed
 
 - Fixed description
 
-## [1.0.1]- 2022-02-05
+## [1.0.1] - 2022-02-05
 
 ### Changed
 
