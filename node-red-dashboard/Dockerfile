@@ -11,7 +11,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # Setup base
 RUN \
     apk add --no-cache \
-        nginx=1.20.2-r0 \
+        nginx=1.20.2-r1 \
     \
     && rm -fr \
         /tmp/* \
