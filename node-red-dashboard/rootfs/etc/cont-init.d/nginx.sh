@@ -16,3 +16,9 @@ bashio::var.json \
     | tempio \
         -template /etc/nginx/templates/resolver.gtpl \
         -out /etc/nginx/includes/resolver.conf
+
+bashio::var.json \
+    port "^$(bashio::config 'node_red_ui_port')" \
+    | tempio \
+        -template /etc/nginx/templates/upstream.gtpl \
+        -out /etc/nginx/includes/upstream.conf

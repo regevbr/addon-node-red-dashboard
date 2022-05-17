@@ -1,6 +1,6 @@
 ---
 name: Node-RED Dashboard
-version: 1.2.0
+version: 1.3.0
 slug: node-red-dashboard
 description: Gain access to the Node-RED dashboard from the sidebar
 url: https://github.com/regevbr/addon-node-red-dashboard
@@ -18,3 +18,7 @@ arch:
 host_network: true
 hassio_api: true
 image: ghcr.io/regevbr/node-red-dashboard/{arch}
+options:
+  node_red_ui_port: 46836
+schema:
+  node_red_ui_port: int

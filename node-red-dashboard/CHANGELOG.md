@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.0] - 2022-05-18
+
+### Changed
+
+- Added option to change the node red UI port
+
 ## [1.2.0] - 2022-02-06
 
 ### Changed
@@ -45,3 +51,4 @@
 [1.1.0]: https://github.com/regevbr/addon-node-red-dashboard/compare/v1.0.2...v1.1.0
 [1.1.1]: https://github.com/regevbr/addon-node-red-dashboard/compare/v1.1.0...v1.1.1
 [1.2.0]: https://github.com/regevbr/addon-node-red-dashboard/compare/v1.1.1...v1.2.0
+[1.3.0]: https://github.com/regevbr/addon-node-red-dashboard/compare/v1.2.0...v1.3.0
